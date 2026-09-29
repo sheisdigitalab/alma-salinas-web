@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alma Salinas · Peluquería & Belleza en Valencia</title>
+  <meta name="description" content="Peluquería y centro de belleza en Valencia. Cortes, color, tratamientos capilares, manicura, pedicura y maquillaje profesional. 4,9★ en Google. Pide cita por WhatsApp." />
+  <meta name="theme-color" content="#F7F2EB" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Alma Salinas · Peluquería & Belleza" />
+  <meta property="og:description" content="Tu salón de confianza en Valencia. Cortes, color, manicura y maquillaje." />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema.org LocalBusiness para SEO local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Alma Salinas · Peluquería & Belleza",
+    "image": "https://www.almasalinas.es/og.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle del Mar 12",
+      "addressLocality": "Valencia",
+      "postalCode": "46000",
+      "addressRegion": "Valencia",
+      "addressCountry": "ES"
+    },
+    "telephone": "+34600000000",
+    "priceRange": "€€",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "60"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "09:30", "closes": "19:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ====== NAV ====== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="brand-mark">AS</span>
+        <span class="brand-name">Alma Salinas</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#sobre">El centro</a>
+        <a href="#galeria">Trabajos</a>
+        <a href="#testimonios">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn--primary nav__cta" href="https://wa.me/34600000000?text=Hola%20Alma%2C%20me%20gustar%C3%ADa%20pedir%20cita" target="_blank" rel="noopener">
+        Pedir cita
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="navMobile" hidden>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre">El centro</a>
+      <a href="#galeria">Trabajos</a>
+      <a href="#testimonios">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+      <a class="btn btn--primary" href="https://wa.me/34600000000" target="_blank" rel="noopener">Pedir cita por WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="top">
+    <div class="hero__media" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1800&auto=format&fit=crop&q=80" alt="" />
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="container hero__content">
+      <p class="eyebrow">Valencia · desde el corazón del Mediterráneo</p>
+      <h1 class="hero__title">
+        Belleza con<br />
+        <em>carácter propio.</em>
+      </h1>
+      <p class="hero__sub">
+        Cortes, color, tratamientos y estética cuidados al detalle.
+        El salón con 4,9★ en Google y más de 60 reseñas.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary btn--lg" href="https://wa.me/34600000000?text=Hola%20Alma%2C%20me%20gustar%C3%ADa%20pedir%20cita" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.6-1.5-.9-2.1-.2-.5-.5-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2 0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 2.6 1 2.6.7 3 .7.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.3 5 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.2 3.7 13.6 3.7 12c0-4.6 3.7-8.3 8.3-8.3s8.3 3.7 8.3 8.3-3.7 8.3-8.3 8.3z"/></svg>
+          Pedir cita por WhatsApp
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#servicios">Ver servicios</a>
+      </div>
+    </div>
+
+    <a href="#trust" class="hero__scroll" aria-label="Bajar">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ====== TRUST BAR ====== -->
+  <section class="trust" id="trust" aria-label="Indicadores">
+    <div class="container trust__grid">
+      <div class="trust__item">
+        <span class="trust__num">4,9<small>/5</small></span>
+        <span class="trust__label">en Google</span>
+      </div>
+      <div class="trust__item">
+        <span class="trust__num">60<small>+</small></span>
+        <span class="trust__label">opiniones reales</span>
+      </div>
+      <div class="trust__item">
+        <span class="trust__num">100%</span>
+        <span class="trust__label">atención personalizada</span>
+      </div>
+      <div class="trust__item">
+        <span class="trust__num">Pro</span>
+        <span class="trust__label">productos premium</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICIOS ====== -->
+  <section class="section services" id="servicios">
+    <div class="container">
+      <header class="section__head">
+        <p class="eyebrow">Servicios</p>
+        <h2 class="section__title">Todo lo que tu pelo<br />y tu piel necesitan.</h2>
+        <p class="section__lead">
+          Un único espacio para verte —y sentirte— bien. Cada servicio adaptado a ti,
+          con consulta previa y productos de alta gama.
+        </p>
+      </header>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&auto=format&fit=crop&q=80" alt="Corte y peinado" loading="lazy" />
+          </div>
+          <div class="service-card__body">
+            <span class="service-card__tag">01</span>
+            <h3>Peluquería</h3>
+            <p>Cortes que te favorecen, peinados para cada ocasión y asesoramiento de imagen.</p>
+            <ul>
+              <li>Corte mujer / hombre / infantil</li>
+              <li>Peinados de fiesta y novia</li>
+              <li>Recogidos</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&auto=format&fit=crop&q=80" alt="Color y mechas" loading="lazy" />
+          </div>
+          <div class="service-card__body">
+            <span class="service-card__tag">02</span>
+            <h3>Color &amp; Tratamientos</h3>
+            <p>Color sin agresividad, mechas a medida y tratamientos que devuelven la vida al cabello.</p>
+            <ul>
+              <li>Color, mechas, balayage</li>
+              <li>Tratamientos capilares</li>
+              <li>Alisados y nutrición</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&auto=format&fit=crop&q=80" alt="Manicura y pedicura" loading="lazy" />
+          </div>
+          <div class="service-card__body">
+            <span class="service-card__tag">03</span>
+            <h3>Manicura &amp; Pedicura</h3>
+            <p>Uñas cuidadas, naturales o con esmaltado semipermanente de larga duración.</p>
+            <ul>
+              <li>Manicura clásica y spa</li>
+              <li>Pedicura completa</li>
+              <li>Semipermanente</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&auto=format&fit=crop&q=80" alt="Maquillaje profesional" loading="lazy" />
+          </div>
+          <div class="service-card__body">
+            <span class="service-card__tag">04</span>
+            <h3>Maquillaje</h3>
+            <p>Maquillaje profesional para eventos, novias, sesiones y día a día.</p>
+            <ul>
+              <li>Maquillaje de novia</li>
+              <li>Eventos y fiesta</li>
+              <li>Asesoramiento</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SOBRE NOSOTROS ====== -->
+  <section class="section about" id="sobre">
+    <div class="container about__grid">
+      <div class="about__media">
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&auto=format&fit=crop&q=80" alt="Interior del salón Alma Salinas" loading="lazy" />
+        <div class="about__badge">
+          <strong>4,9★</strong>
+          <span>60 reseñas en Google</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow">El centro</p>
+        <h2 class="section__title">Un salón con<br />sello propio.</h2>
+        <p>
+          En Alma Salinas creemos que ir a la peluquería no es solo una cita, es un rato para ti.
+          Por eso trabajamos con tiempo, escuchando lo que necesitas y eligiendo lo que de verdad
+          le sienta bien a tu pelo y a tu piel.
+        </p>
+        <p>
+          Estamos en el centro de Valencia, atendiendo a quienes vienen cada semana
+          y a quienes están de paso por la ciudad. Mujeres, hombres y peques: lo nuestro es el
+          cuidado real, sin atajos.
+        </p>
+        <ul class="about__list">
+          <li><span>✦</span> Atención personalizada y sin prisas</li>
+          <li><span>✦</span> Productos profesionales de alta gama</li>
+          <li><span>✦</span> Especialistas en color y tratamientos</li>
+          <li><span>✦</span> Espacio accesible y acogedor</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALERÍA ====== -->
+  <section class="section gallery" id="galeria">
+    <div class="container">
+      <header class="section__head section__head--center">
+        <p class="eyebrow">Trabajos</p>
+        <h2 class="section__title">Resultados que hablan<br />por sí solos.</h2>
+      </header>
+
+      <div class="gallery__grid">
+        <a class="gallery__item gallery__item--hero" href="#">
+          <img src="images/trabajo-1.jpg" onerror="this.src='https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=1200&auto=format&fit=crop&q=80'" alt="Color y balayage" loading="lazy" />
+          <span class="gallery__cap">Color &amp; balayage</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-2.jpg" onerror="this.src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80'" alt="Tratamiento capilar" loading="lazy" />
+          <span class="gallery__cap">Tratamientos</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-3.jpg" onerror="this.src='https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800&auto=format&fit=crop&q=80'" alt="Corte y peinado" loading="lazy" />
+          <span class="gallery__cap">Cortes</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-4.jpg" onerror="this.src='https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&auto=format&fit=crop&q=80'" alt="Peinado profesional" loading="lazy" />
+          <span class="gallery__cap">Peinados</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-5.jpg" onerror="this.src='https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&auto=format&fit=crop&q=80'" alt="Maquillaje profesional" loading="lazy" />
+          <span class="gallery__cap">Maquillaje</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-6.jpg" onerror="this.src='https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&auto=format&fit=crop&q=80'" alt="Pedicura spa" loading="lazy" />
+          <span class="gallery__cap">Pedicura</span>
+        </a>
+        <a class="gallery__item" href="#">
+          <img src="images/trabajo-7.jpg" onerror="this.src='https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=800&auto=format&fit=crop&q=80'" alt="Color creativo" loading="lazy" />
+          <span class="gallery__cap">Color creativo</span>
+        </a>
+        <a class="gallery__item gallery__item--wide" href="#">
+          <img src="images/trabajo-8.jpg" onerror="this.src='https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1400&auto=format&fit=crop&q=80'" alt="Cuidado del cabello" loading="lazy" />
+          <span class="gallery__cap">Cuidado capilar</span>
+        </a>
+      </div>
+
+      <p class="gallery__note">
+        Sigue todos nuestros trabajos en
+        <a href="#">@almasalinas.salon</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIOS ====== -->
+  <section class="section testimonials" id="testimonios">
+    <div class="container">
+      <header class="section__head section__head--center">
+        <p class="eyebrow">Opiniones reales</p>
+        <h2 class="section__title">Lo que dicen<br />quienes vienen.</h2>
+        <p class="section__lead">Algunas de las reseñas que nos dejan en Google.</p>
+      </header>
+
+      <div class="testimonials__grid">
+        <blockquote class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>“Llevo años yendo y nunca me han fallado. Saben lo que me favorece mejor que yo. El trato, una maravilla.”</p>
+          <footer><strong>María L.</strong><span>Cliente habitual</span></footer>
+        </blockquote>
+
+        <blockquote class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>“Me hicieron un balayage que pedí por Instagram y quedó clavado. Súper profesionales y muy agradables.”</p>
+          <footer><strong>Carla G.</strong><span>Google</span></footer>
+        </blockquote>
+
+        <blockquote class="t-card">
+          <div class="t-card__stars">★★★★★</div>
+          <p>“Voy desde hace dos años y siempre salgo contento. Conocen el corte que me favorece sin tener que explicarlo cada vez.”</p>
+          <footer><strong>Javier M.</strong><span>Cliente habitual</span></footer>
+        </blockquote>
+      </div>
+
+      <div class="testimonials__cta">
+        <a class="btn btn--ghost" href="#">Leer todas las reseñas en Google →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section class="section contact" id="contacto">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <p class="eyebrow">Ven a vernos</p>
+        <h2 class="section__title">Estamos en<br />Valencia.</h2>
+
+        <div class="contact__block">
+          <h4>Dirección</h4>
+          <p>Calle del Mar, 12<br />46000 Valencia</p>
+        </div>
+
+        <div class="contact__block">
+          <h4>Horario</h4>
+          <ul class="hours">
+            <li><span>Lunes</span><span>Cerrado</span></li>
+            <li><span>Martes — Viernes</span><span>9:30 — 19:30</span></li>
+            <li><span>Sábado</span><span>9:00 — 13:00</span></li>
+            <li><span>Domingo</span><span>Cerrado</span></li>
+          </ul>
+        </div>
+
+        <div class="contact__block">
+          <h4>Contacto directo</h4>
+          <p>
+            <a href="tel:+34600000000">600 000 000</a><br />
+            <a href="mailto:hola@almasalinas.es">hola@almasalinas.es</a>
+          </p>
+        </div>
+
+        <div class="contact__cta">
+          <a class="btn btn--primary" href="https://wa.me/34600000000?text=Hola%20Alma%2C%20me%20gustar%C3%ADa%20pedir%20cita" target="_blank" rel="noopener">Pedir cita por WhatsApp</a>
+          <a class="btn btn--ghost" href="tel:+34600000000">Llamar al salón</a>
+        </div>
+      </div>
+
+      <div class="contact__map">
+        <iframe
+          title="Mapa de Alma Salinas en Valencia"
+          src="https://www.google.com/maps?q=Plaza+del+Ayuntamiento+Valencia&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA FINAL ====== -->
+  <section class="cta-final">
+    <div class="container">
+      <h2>Tu próxima cita,<br />a un mensaje.</h2>
+      <p>Escríbenos por WhatsApp y te respondemos enseguida.</p>
+      <a class="btn btn--primary btn--lg" href="https://wa.me/34600000000?text=Hola%20Alma%2C%20me%20gustar%C3%ADa%20pedir%20cita" target="_blank" rel="noopener">
+        Pedir cita
+      </a>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__brand">
+          <span class="brand-mark">AS</span>
+          <span class="brand-name">Alma Salinas</span>
+        </div>
+        <p>Peluquería &amp; centro de belleza en Valencia desde hace más de una década.</p>
+      </div>
+
+      <div>
+        <h5>Visítanos</h5>
+        <p>Calle del Mar, 12<br />46000 Valencia</p>
+      </div>
+
+      <div>
+        <h5>Contacto</h5>
+        <p>
+          <a href="tel:+34600000000">600 000 000</a><br />
+          <a href="https://wa.me/34600000000">WhatsApp</a><br />
+          <a href="#">Instagram</a>
+        </p>
+      </div>
+
+      <div>
+        <h5>Síguenos</h5>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.2.3-2 2-2h2V2.1C16.7 2 15.6 2 14.5 2 11.8 2 10 3.6 10 6.9V10H7v4h3v8h3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <small>© <span id="year"></span> Alma Salinas · Todos los derechos reservados</small>
+      <small>Diseño: <a href="https://sheisdigitalab.com" target="_blank" rel="noopener">She's Digital</a></small>
+    </div>
+  </footer>
+
+  <!-- ====== FLOATING WHATSAPP ====== -->
+  <a class="float-wa" href="https://wa.me/34600000000?text=Hola%20Alma%2C%20me%20gustar%C3%ADa%20pedir%20cita" target="_blank" rel="noopener" aria-label="Pedir cita por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.6-1.5-.9-2.1-.2-.5-.5-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2 0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 2.6 1 2.6.7 3 .7.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.3 5 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.2 3.7 13.6 3.7 12c0-4.6 3.7-8.3 8.3-8.3s8.3 3.7 8.3 8.3-3.7 8.3-8.3 8.3z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
